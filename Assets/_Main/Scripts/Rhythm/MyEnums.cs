@@ -9,4 +9,12 @@
         Green,
         DefaultMax
     }
+
+    public enum NotesTimeEnum
+    {
+        Whole,
+        Quarter,
+        Eighth,
+        Sixteenth,
+    }
 }

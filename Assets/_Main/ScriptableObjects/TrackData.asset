@@ -12,34 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ceb66b9e95f437b8b7ec9cdcb197ca9, type: 3}
   m_Name: TrackData
   m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
+  tempo: 120
   notes:
-  - delay: 1
+  - time: 0
     color: 1
-  - delay: 0.5
+  - time: 0
     color: 1
-  - delay: 0.5
+  - time: 0
     color: 2
-  - delay: 0.5
+  - time: 0
     color: 3
-  - delay: 0.5
+  - time: 0
     color: 4
-  - delay: 0.5
+  - time: 0
     color: 3
-  - delay: 0.5
+  - time: 0
     color: 4
-  - delay: 0.5
+  - time: 0
     color: 3
-  - delay: 0.5
+  - time: 0
     color: 2
-  - delay: 0.5
+  - time: 0
     color: 1
-  - delay: 0.5
+  - time: 0
     color: 2
-  - delay: 0.5
+  - time: 0
     color: 3
-  - delay: 0.5
+  - time: 0
     color: 2
-  - delay: 0.5
+  - time: 0
     color: 1
-  - delay: 0.5
+  - time: 0
     color: 4

@@ -8,6 +8,8 @@ namespace _Main.Scripts.Rhythm.UI
     {
         [SerializeField] private Image progressBar;
         [SerializeField] private NotesController notesController;
+        [SerializeField] private NoteChecker noteChecker;
+        [SerializeField] private Text scoreText;
 
         private void Awake()
         {
@@ -15,8 +17,9 @@ namespace _Main.Scripts.Rhythm.UI
         }
 
         private void Update()
-        {
+        { 
             progressBar.fillAmount = notesController.GetTrackProgressRatio();
+            scoreText.text = $"Score: {noteChecker.GetScore()}";
         }
     }
 }

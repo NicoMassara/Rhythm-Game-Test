@@ -7,6 +7,17 @@ namespace _Main.Scripts.Rhythm
     public class NoteChecker : MonoBehaviour
     {
         private List<Cube> _notes;
+        private int _score = 0;
+        
+        public int GetScore()
+        {
+            return _score;
+        }
+
+        public void ResetScore()
+        {
+            _score = 0;
+        }
 
         private void Start()
         {
@@ -21,6 +32,7 @@ namespace _Main.Scripts.Rhythm
             {
                 noteToCheck.Strum();
                 didHit = true;
+                _score += 10;
                 Debug.Log($"Check Note {colorNote}");
             }
             else
